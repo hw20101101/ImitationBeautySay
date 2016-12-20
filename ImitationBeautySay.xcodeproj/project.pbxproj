@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1434B23C798ACE27E2BC2220 /* libPods-ImitationBeautySay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1675B9E9CC5D8C38C7A7CBAE /* libPods-ImitationBeautySay.a */; };
+		231457CE14480D21F0F5C878 /* libPods-ImitationBeautySayUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1C83E56D30764A6384FDF7 /* libPods-ImitationBeautySayUITests.a */; };
+		C56EBE471E093AE000611763 /* HWHotTopicItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56EBE461E093AE000611763 /* HWHotTopicItemView.m */; };
+		C5B1AD1D1E08EABA00362D29 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B1AD1C1E08EABA00362D29 /* UIColor+Hex.m */; };
+		C5B1AD201E09082F00362D29 /* HWClassifyItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B1AD1F1E09082F00362D29 /* HWClassifyItemView.m */; };
+		C5BB7ED61E091C280023A02E /* HWHotTagItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB7ED51E091C280023A02E /* HWHotTagItemView.m */; };
+		C5E118BA1E08D7C100E55FAC /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E118B71E08D7C100E55FAC /* UIBarButtonItem+Extension.m */; };
+		C5E118BB1E08D7C100E55FAC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E118B91E08D7C100E55FAC /* UIView+Extension.m */; };
+		C5F198C81E07BDD8005ED530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F198C71E07BDD8005ED530 /* main.m */; };
+		C5F198CB1E07BDD8005ED530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F198CA1E07BDD8005ED530 /* AppDelegate.m */; };
+		C5F198D11E07BDD8005ED530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F198CF1E07BDD8005ED530 /* Main.storyboard */; };
+		C5F198D31E07BDD8005ED530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F198D21E07BDD8005ED530 /* Assets.xcassets */; };
+		C5F198D61E07BDD8005ED530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F198D41E07BDD8005ED530 /* LaunchScreen.storyboard */; };
+		C5F198E11E07BDD8005ED530 /* ImitationBeautySayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F198E01E07BDD8005ED530 /* ImitationBeautySayTests.m */; };
+		C5F198EC1E07BDD8005ED530 /* ImitationBeautySayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F198EB1E07BDD8005ED530 /* ImitationBeautySayUITests.m */; };
+		C5F199031E07D81F005ED530 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F199021E07D81F005ED530 /* HWHomeViewController.m */; };
+		C5F199061E07D83B005ED530 /* HWClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F199051E07D83B005ED530 /* HWClassifyViewController.m */; };
+		C5F199091E07D84D005ED530 /* HWCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F199081E07D84D005ED530 /* HWCartViewController.m */; };
+		C5F1990C1E07D85B005ED530 /* HWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1990B1E07D85B005ED530 /* HWMeViewController.m */; };
+		C5F1990F1E07E8E9005ED530 /* HWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1990E1E07E8E9005ED530 /* HWTabBarController.m */; };
+		C5F199121E07E90E005ED530 /* ZTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F199111E07E90E005ED530 /* ZTTabBar.m */; };
+		DA3748F28244E8A8EE16C2F3 /* libPods-ImitationBeautySayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C74E3CEA5B558FF1710C3C16 /* libPods-ImitationBeautySayTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F198DD1E07BDD8005ED530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F198BB1E07BDD8005ED530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F198C21E07BDD8005ED530;
+			remoteInfo = ImitationBeautySay;
+		};
+		C5F198E81E07BDD8005ED530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F198BB1E07BDD8005ED530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F198C21E07BDD8005ED530;
+			remoteInfo = ImitationBeautySay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1675B9E9CC5D8C38C7A7CBAE /* libPods-ImitationBeautySay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImitationBeautySay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1C83E56D30764A6384FDF7 /* libPods-ImitationBeautySayUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImitationBeautySayUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1014C537DA15DE1EDE951A /* Pods-ImitationBeautySay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySay/Pods-ImitationBeautySay.debug.xcconfig"; sourceTree = "<group>"; };
+		3F289750454E43644E36A323 /* Pods-ImitationBeautySayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySayUITests/Pods-ImitationBeautySayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56B12D5081228F04E6807D94 /* Pods-ImitationBeautySayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySayTests/Pods-ImitationBeautySayTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C3C0A01B65B7CAAF8403899 /* Pods-ImitationBeautySay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySay.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySay/Pods-ImitationBeautySay.release.xcconfig"; sourceTree = "<group>"; };
+		7F13D14578AF0193D05A248B /* Pods-ImitationBeautySayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySayUITests/Pods-ImitationBeautySayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B9AADBAA38B80EF9A28504 /* Pods-ImitationBeautySayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitationBeautySayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitationBeautySayTests/Pods-ImitationBeautySayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C56EBE451E093AE000611763 /* HWHotTopicItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHotTopicItemView.h; sourceTree = "<group>"; };
+		C56EBE461E093AE000611763 /* HWHotTopicItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHotTopicItemView.m; sourceTree = "<group>"; };
+		C5B1AD1B1E08EABA00362D29 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C5B1AD1C1E08EABA00362D29 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C5B1AD1E1E09082F00362D29 /* HWClassifyItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWClassifyItemView.h; sourceTree = "<group>"; };
+		C5B1AD1F1E09082F00362D29 /* HWClassifyItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWClassifyItemView.m; sourceTree = "<group>"; };
+		C5BB7ED41E091C280023A02E /* HWHotTagItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHotTagItemView.h; sourceTree = "<group>"; };
+		C5BB7ED51E091C280023A02E /* HWHotTagItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHotTagItemView.m; sourceTree = "<group>"; };
+		C5E118B61E08D7C100E55FAC /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		C5E118B71E08D7C100E55FAC /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		C5E118B81E08D7C100E55FAC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C5E118B91E08D7C100E55FAC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C5F198C31E07BDD8005ED530 /* ImitationBeautySay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitationBeautySay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F198C71E07BDD8005ED530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5F198C91E07BDD8005ED530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5F198CA1E07BDD8005ED530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5F198D01E07BDD8005ED530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5F198D21E07BDD8005ED530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F198D51E07BDD8005ED530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5F198D71E07BDD8005ED530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F198DC1E07BDD8005ED530 /* ImitationBeautySayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImitationBeautySayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F198E01E07BDD8005ED530 /* ImitationBeautySayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImitationBeautySayTests.m; sourceTree = "<group>"; };
+		C5F198E21E07BDD8005ED530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F198E71E07BDD8005ED530 /* ImitationBeautySayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImitationBeautySayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F198EB1E07BDD8005ED530 /* ImitationBeautySayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImitationBeautySayUITests.m; sourceTree = "<group>"; };
+		C5F198ED1E07BDD8005ED530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F198F91E07C3D0005ED530 /* ImitationBeautySay.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImitationBeautySay.pch; sourceTree = "<group>"; };
+		C5F199011E07D81F005ED530 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		C5F199021E07D81F005ED530 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		C5F199041E07D83B005ED530 /* HWClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWClassifyViewController.h; sourceTree = "<group>"; };
+		C5F199051E07D83B005ED530 /* HWClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWClassifyViewController.m; sourceTree = "<group>"; };
+		C5F199071E07D84D005ED530 /* HWCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCartViewController.h; sourceTree = "<group>"; };
+		C5F199081E07D84D005ED530 /* HWCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCartViewController.m; sourceTree = "<group>"; };
+		C5F1990A1E07D85B005ED530 /* HWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMeViewController.h; sourceTree = "<group>"; };
+		C5F1990B1E07D85B005ED530 /* HWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMeViewController.m; sourceTree = "<group>"; };
+		C5F1990D1E07E8E9005ED530 /* HWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBarController.h; sourceTree = "<group>"; };
+		C5F1990E1E07E8E9005ED530 /* HWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBarController.m; sourceTree = "<group>"; };
+		C5F199101E07E90E005ED530 /* ZTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBar.h; sourceTree = "<group>"; };
+		C5F199111E07E90E005ED530 /* ZTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBar.m; sourceTree = "<group>"; };
+		C74E3CEA5B558FF1710C3C16 /* libPods-ImitationBeautySayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImitationBeautySayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F198C01E07BDD8005ED530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1434B23C798ACE27E2BC2220 /* libPods-ImitationBeautySay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198D91E07BDD8005ED530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3748F28244E8A8EE16C2F3 /* libPods-ImitationBeautySayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198E41E07BDD8005ED530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231457CE14480D21F0F5C878 /* libPods-ImitationBeautySayUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384F8807AF57949FDAA34541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F1014C537DA15DE1EDE951A /* Pods-ImitationBeautySay.debug.xcconfig */,
+				6C3C0A01B65B7CAAF8403899 /* Pods-ImitationBeautySay.release.xcconfig */,
+				B5B9AADBAA38B80EF9A28504 /* Pods-ImitationBeautySayTests.debug.xcconfig */,
+				56B12D5081228F04E6807D94 /* Pods-ImitationBeautySayTests.release.xcconfig */,
+				7F13D14578AF0193D05A248B /* Pods-ImitationBeautySayUITests.debug.xcconfig */,
+				3F289750454E43644E36A323 /* Pods-ImitationBeautySayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D461E483E37E9CC012F5DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1675B9E9CC5D8C38C7A7CBAE /* libPods-ImitationBeautySay.a */,
+				C74E3CEA5B558FF1710C3C16 /* libPods-ImitationBeautySayTests.a */,
+				1C1C83E56D30764A6384FDF7 /* libPods-ImitationBeautySayUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E118B51E08D7C100E55FAC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5E118B61E08D7C100E55FAC /* UIBarButtonItem+Extension.h */,
+				C5E118B71E08D7C100E55FAC /* UIBarButtonItem+Extension.m */,
+				C5E118B81E08D7C100E55FAC /* UIView+Extension.h */,
+				C5E118B91E08D7C100E55FAC /* UIView+Extension.m */,
+				C5B1AD1B1E08EABA00362D29 /* UIColor+Hex.h */,
+				C5B1AD1C1E08EABA00362D29 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C5F198BA1E07BDD8005ED530 = {
+			isa = PBXGroup;
+			children = (
+				C5F198C51E07BDD8005ED530 /* ImitationBeautySay */,
+				C5F198DF1E07BDD8005ED530 /* ImitationBeautySayTests */,
+				C5F198EA1E07BDD8005ED530 /* ImitationBeautySayUITests */,
+				C5F198C41E07BDD8005ED530 /* Products */,
+				384F8807AF57949FDAA34541 /* Pods */,
+				3D461E483E37E9CC012F5DD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F198C41E07BDD8005ED530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198C31E07BDD8005ED530 /* ImitationBeautySay.app */,
+				C5F198DC1E07BDD8005ED530 /* ImitationBeautySayTests.xctest */,
+				C5F198E71E07BDD8005ED530 /* ImitationBeautySayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F198C51E07BDD8005ED530 /* ImitationBeautySay */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198C91E07BDD8005ED530 /* AppDelegate.h */,
+				C5F198CA1E07BDD8005ED530 /* AppDelegate.m */,
+				C5F1990D1E07E8E9005ED530 /* HWTabBarController.h */,
+				C5F1990E1E07E8E9005ED530 /* HWTabBarController.m */,
+				C5E118B51E08D7C100E55FAC /* Category */,
+				C5F198FC1E07D6AA005ED530 /* models */,
+				C5F198FB1E07D6A3005ED530 /* views */,
+				C5F198FA1E07D699005ED530 /* controllers */,
+				C5F198CF1E07BDD8005ED530 /* Main.storyboard */,
+				C5F198D21E07BDD8005ED530 /* Assets.xcassets */,
+				C5F198D41E07BDD8005ED530 /* LaunchScreen.storyboard */,
+				C5F198D71E07BDD8005ED530 /* Info.plist */,
+				C5F198C61E07BDD8005ED530 /* Supporting Files */,
+			);
+			path = ImitationBeautySay;
+			sourceTree = "<group>";
+		};
+		C5F198C61E07BDD8005ED530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198C71E07BDD8005ED530 /* main.m */,
+				C5F198F91E07C3D0005ED530 /* ImitationBeautySay.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5F198DF1E07BDD8005ED530 /* ImitationBeautySayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198E01E07BDD8005ED530 /* ImitationBeautySayTests.m */,
+				C5F198E21E07BDD8005ED530 /* Info.plist */,
+			);
+			path = ImitationBeautySayTests;
+			sourceTree = "<group>";
+		};
+		C5F198EA1E07BDD8005ED530 /* ImitationBeautySayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198EB1E07BDD8005ED530 /* ImitationBeautySayUITests.m */,
+				C5F198ED1E07BDD8005ED530 /* Info.plist */,
+			);
+			path = ImitationBeautySayUITests;
+			sourceTree = "<group>";
+		};
+		C5F198FA1E07D699005ED530 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5F198FF1E07D6E2005ED530 /* home */,
+				C5F198FE1E07D6E2005ED530 /* classify */,
+				C5F198FD1E07D6E2005ED530 /* cart */,
+				C5F199001E07D6E2005ED530 /* me */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C5F198FB1E07D6A3005ED530 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C5F199101E07E90E005ED530 /* ZTTabBar.h */,
+				C5F199111E07E90E005ED530 /* ZTTabBar.m */,
+				C5B1AD1E1E09082F00362D29 /* HWClassifyItemView.h */,
+				C5B1AD1F1E09082F00362D29 /* HWClassifyItemView.m */,
+				C5BB7ED41E091C280023A02E /* HWHotTagItemView.h */,
+				C5BB7ED51E091C280023A02E /* HWHotTagItemView.m */,
+				C56EBE451E093AE000611763 /* HWHotTopicItemView.h */,
+				C56EBE461E093AE000611763 /* HWHotTopicItemView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C5F198FC1E07D6AA005ED530 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C5F198FD1E07D6E2005ED530 /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				C5F199071E07D84D005ED530 /* HWCartViewController.h */,
+				C5F199081E07D84D005ED530 /* HWCartViewController.m */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
+		C5F198FE1E07D6E2005ED530 /* classify */ = {
+			isa = PBXGroup;
+			children = (
+				C5F199041E07D83B005ED530 /* HWClassifyViewController.h */,
+				C5F199051E07D83B005ED530 /* HWClassifyViewController.m */,
+			);
+			path = classify;
+			sourceTree = "<group>";
+		};
+		C5F198FF1E07D6E2005ED530 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C5F199011E07D81F005ED530 /* HWHomeViewController.h */,
+				C5F199021E07D81F005ED530 /* HWHomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C5F199001E07D6E2005ED530 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1990A1E07D85B005ED530 /* HWMeViewController.h */,
+				C5F1990B1E07D85B005ED530 /* HWMeViewController.m */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F198C21E07BDD8005ED530 /* ImitationBeautySay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F198F01E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySay" */;
+			buildPhases = (
+				B468F56C3D5178E4D113892A /* [CP] Check Pods Manifest.lock */,
+				C5F198BF1E07BDD8005ED530 /* Sources */,
+				C5F198C01E07BDD8005ED530 /* Frameworks */,
+				C5F198C11E07BDD8005ED530 /* Resources */,
+				89C7CB92FBD35E4A609A31AF /* [CP] Embed Pods Frameworks */,
+				F794C2D4CF0E0F8B80EDD79A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImitationBeautySay;
+			productName = ImitationBeautySay;
+			productReference = C5F198C31E07BDD8005ED530 /* ImitationBeautySay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F198DB1E07BDD8005ED530 /* ImitationBeautySayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F198F31E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySayTests" */;
+			buildPhases = (
+				EDE608DF5D8A73A0FA34187D /* [CP] Check Pods Manifest.lock */,
+				C5F198D81E07BDD8005ED530 /* Sources */,
+				C5F198D91E07BDD8005ED530 /* Frameworks */,
+				C5F198DA1E07BDD8005ED530 /* Resources */,
+				474D268E4562BD5154BB1E60 /* [CP] Embed Pods Frameworks */,
+				655DB1B46A1221AF2B4EF441 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F198DE1E07BDD8005ED530 /* PBXTargetDependency */,
+			);
+			name = ImitationBeautySayTests;
+			productName = ImitationBeautySayTests;
+			productReference = C5F198DC1E07BDD8005ED530 /* ImitationBeautySayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F198E61E07BDD8005ED530 /* ImitationBeautySayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F198F61E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySayUITests" */;
+			buildPhases = (
+				733DD8B68BF4E4137212D4BC /* [CP] Check Pods Manifest.lock */,
+				C5F198E31E07BDD8005ED530 /* Sources */,
+				C5F198E41E07BDD8005ED530 /* Frameworks */,
+				C5F198E51E07BDD8005ED530 /* Resources */,
+				CE3A157C2A41B8BCC9C7A6F7 /* [CP] Embed Pods Frameworks */,
+				12BC9D1449D41E65B3DA414A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F198E91E07BDD8005ED530 /* PBXTargetDependency */,
+			);
+			name = ImitationBeautySayUITests;
+			productName = ImitationBeautySayUITests;
+			productReference = C5F198E71E07BDD8005ED530 /* ImitationBeautySayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F198BB1E07BDD8005ED530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = hwacdx;
+				TargetAttributes = {
+					C5F198C21E07BDD8005ED530 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C5F198DB1E07BDD8005ED530 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5F198C21E07BDD8005ED530;
+					};
+					C5F198E61E07BDD8005ED530 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5F198C21E07BDD8005ED530;
+					};
+				};
+			};
+			buildConfigurationList = C5F198BE1E07BDD8005ED530 /* Build configuration list for PBXProject "ImitationBeautySay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F198BA1E07BDD8005ED530;
+			productRefGroup = C5F198C41E07BDD8005ED530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F198C21E07BDD8005ED530 /* ImitationBeautySay */,
+				C5F198DB1E07BDD8005ED530 /* ImitationBeautySayTests */,
+				C5F198E61E07BDD8005ED530 /* ImitationBeautySayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F198C11E07BDD8005ED530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F198D61E07BDD8005ED530 /* LaunchScreen.storyboard in Resources */,
+				C5F198D31E07BDD8005ED530 /* Assets.xcassets in Resources */,
+				C5F198D11E07BDD8005ED530 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198DA1E07BDD8005ED530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198E51E07BDD8005ED530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BC9D1449D41E65B3DA414A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySayUITests/Pods-ImitationBeautySayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474D268E4562BD5154BB1E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySayTests/Pods-ImitationBeautySayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655DB1B46A1221AF2B4EF441 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySayTests/Pods-ImitationBeautySayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733DD8B68BF4E4137212D4BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89C7CB92FBD35E4A609A31AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySay/Pods-ImitationBeautySay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B468F56C3D5178E4D113892A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE3A157C2A41B8BCC9C7A6F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySayUITests/Pods-ImitationBeautySayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE608DF5D8A73A0FA34187D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F794C2D4CF0E0F8B80EDD79A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitationBeautySay/Pods-ImitationBeautySay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F198BF1E07BDD8005ED530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E118BB1E08D7C100E55FAC /* UIView+Extension.m in Sources */,
+				C5BB7ED61E091C280023A02E /* HWHotTagItemView.m in Sources */,
+				C56EBE471E093AE000611763 /* HWHotTopicItemView.m in Sources */,
+				C5F199031E07D81F005ED530 /* HWHomeViewController.m in Sources */,
+				C5B1AD201E09082F00362D29 /* HWClassifyItemView.m in Sources */,
+				C5F199061E07D83B005ED530 /* HWClassifyViewController.m in Sources */,
+				C5F198CB1E07BDD8005ED530 /* AppDelegate.m in Sources */,
+				C5F1990F1E07E8E9005ED530 /* HWTabBarController.m in Sources */,
+				C5F198C81E07BDD8005ED530 /* main.m in Sources */,
+				C5F199091E07D84D005ED530 /* HWCartViewController.m in Sources */,
+				C5E118BA1E08D7C100E55FAC /* UIBarButtonItem+Extension.m in Sources */,
+				C5B1AD1D1E08EABA00362D29 /* UIColor+Hex.m in Sources */,
+				C5F1990C1E07D85B005ED530 /* HWMeViewController.m in Sources */,
+				C5F199121E07E90E005ED530 /* ZTTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198D81E07BDD8005ED530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F198E11E07BDD8005ED530 /* ImitationBeautySayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F198E31E07BDD8005ED530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F198EC1E07BDD8005ED530 /* ImitationBeautySayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F198DE1E07BDD8005ED530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F198C21E07BDD8005ED530 /* ImitationBeautySay */;
+			targetProxy = C5F198DD1E07BDD8005ED530 /* PBXContainerItemProxy */;
+		};
+		C5F198E91E07BDD8005ED530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F198C21E07BDD8005ED530 /* ImitationBeautySay */;
+			targetProxy = C5F198E81E07BDD8005ED530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5F198CF1E07BDD8005ED530 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F198D01E07BDD8005ED530 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5F198D41E07BDD8005ED530 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F198D51E07BDD8005ED530 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F198EE1E07BDD8005ED530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5F198EF1E07BDD8005ED530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F198F11E07BDD8005ED530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1014C537DA15DE1EDE951A /* Pods-ImitationBeautySay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ImitationBeautySay/ImitationBeautySay.pch;
+				INFOPLIST_FILE = ImitationBeautySay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5F198F21E07BDD8005ED530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3C0A01B65B7CAAF8403899 /* Pods-ImitationBeautySay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ImitationBeautySay/ImitationBeautySay.pch;
+				INFOPLIST_FILE = ImitationBeautySay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5F198F41E07BDD8005ED530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B9AADBAA38B80EF9A28504 /* Pods-ImitationBeautySayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImitationBeautySayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImitationBeautySay.app/ImitationBeautySay";
+			};
+			name = Debug;
+		};
+		C5F198F51E07BDD8005ED530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B12D5081228F04E6807D94 /* Pods-ImitationBeautySayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImitationBeautySayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImitationBeautySay.app/ImitationBeautySay";
+			};
+			name = Release;
+		};
+		C5F198F71E07BDD8005ED530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F13D14578AF0193D05A248B /* Pods-ImitationBeautySayUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ImitationBeautySayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImitationBeautySay;
+			};
+			name = Debug;
+		};
+		C5F198F81E07BDD8005ED530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F289750454E43644E36A323 /* Pods-ImitationBeautySayUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ImitationBeautySayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.ImitationBeautySayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImitationBeautySay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F198BE1E07BDD8005ED530 /* Build configuration list for PBXProject "ImitationBeautySay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F198EE1E07BDD8005ED530 /* Debug */,
+				C5F198EF1E07BDD8005ED530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F198F01E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F198F11E07BDD8005ED530 /* Debug */,
+				C5F198F21E07BDD8005ED530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F198F31E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F198F41E07BDD8005ED530 /* Debug */,
+				C5F198F51E07BDD8005ED530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F198F61E07BDD8005ED530 /* Build configuration list for PBXNativeTarget "ImitationBeautySayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F198F71E07BDD8005ED530 /* Debug */,
+				C5F198F81E07BDD8005ED530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F198BB1E07BDD8005ED530 /* Project object */;
+}
